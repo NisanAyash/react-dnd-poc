@@ -94,6 +94,7 @@ const SamplePage = () => {
   //   return `rgb(${red}, 0, ${blue})`;
   // };
 
+  
   const narrowRangeInterpolateColor = (temp, minTemp = 20, maxTemp = 80) => {
     // Clamp temp to within the new narrower range
     const clampedTemp = Math.max(minTemp, Math.min(maxTemp, temp));
